@@ -3,12 +3,12 @@ import "./register.css";
 import { Navigate, useNavigate } from "react-router-dom";
 const Register = () => {
   const [user, setUser] = useState({
-    fullName: "",
-    phoneNumber: "",
-    email: "",
-    password: "",
-    companyName: "",
-    isAgency: "",
+    fullName: "Marry Doe",
+    phoneNumber: "9124588954",
+    email: "marrydoe@gmail.com",
+    password: "marry",
+    companyName: "Marry Doe Company",
+    isAgency: "yes",
   });
   const navigate = useNavigate();
   function handleSubmit(e) {
